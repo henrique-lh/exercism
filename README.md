@@ -2,7 +2,7 @@
 
 My path to learn new programming languages
 
-## Listed languages
+## Languages
 
 - Golang (current)
 - C++ (comming soon)
