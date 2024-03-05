@@ -8,5 +8,12 @@ At least two questions per day are asked, with the main concepts of the language
 
 ## Languages
 
-- Golang (current)
-- C++ (comming soon)
+- F# (current)
+- Golang (stand-by)
+- C++ (comming soon with solutions)
+
+## To-do
+
+- [ ] Add C++ solutions
+- [ ] Finish basics of F#
+- [ ] Finish basics of golang
