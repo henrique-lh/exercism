@@ -1,19 +1,13 @@
 # exercism
 
-My path to learn new programming languages
+The intent of this repository is to track my progress in learning different programming languages. The purpose is to document my programming learning path.
 
 ## Method
 
-At least two questions per day are asked, with the main concepts of the language and the proposed exercise being noted.
+- Complete as many exercises as possible in a day
+- No AI, read the error, spot it, solve it, and repeat
 
 ## Languages
 
-- F# (current)
-- Golang (stand-by)
-- C++ (comming soon with solutions)
-
-## To-do
-
-- [ ] Add C++ solutions
-- [ ] Finish basics of F#
-- [ ] Finish basics of golang
+- F#
+- Elixir
