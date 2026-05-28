@@ -1,7 +1,7 @@
 name: Auto merge Exercism PRs
 
 on:
-  pull_request:
+  pull_request_target:
     types:
       - opened
       - synchronize
@@ -14,11 +14,10 @@ jobs:
   automerge:
     runs-on: ubuntu-latest
 
-    if: |
-      github.actor == 'exercism-solutions-syncer'
+    if: github.event.pull_request.user.login == 'exercism-solutions-syncer[bot]'
 
     steps:
-      - name: Enable auto-merge
+      - name: Merge PR instantly
         run: gh pr merge --squash --delete-branch "$PR_URL"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
